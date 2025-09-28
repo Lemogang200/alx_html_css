@@ -31,3 +31,16 @@
       background: #e0e0e0;
       overflow-y: auto; /* enable vertical scroll if needed */
     }
+
+
+    /* Responsive rules when body has the works_on_smartphone class */
+    @media (max-width: 768px) {
+      body.works_on_smartphone main {
+        flex-direction: column; /* stack article and aside */
+      }
+
+      body.works_on_smartphone article,
+      body.works_on_smartphone aside {
+        flex: auto; /* let them each take full width */
+      }
+    }
