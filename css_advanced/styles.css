@@ -1,0 +1,133 @@
+/* Global Styles */ 
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif; 
+}
+ 
+body { 
+    background-image: url("Object.png");
+    color: #fff; 
+    text-align: center;
+} 
+
+/* HEADER */ 
+header { 
+    position: absolute; 
+    top: 0; 
+    width: 100%; 
+    padding: 2rem 5%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    z-index: 10; 
+} 
+nav { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+} 
+/* nav img { height: 30px; } */ 
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    gap: 2rem; 
+} 
+
+nav a { 
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: 500; 
+    opacity: 0.8; 
+    transition: 0.3s; 
+} 
+
+nav a:hover { 
+    opacity: 1; 
+} 
+/* HERO SECTION */ 
+main > section:first-of-type { 
+    position: relative; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+/*
+main > section:first-of-type::before { 
+    content: ""; 
+    position: absolute; 
+    inset: 0; 
+    background: linear-gradient(to bottom, rgba(11,13,23,0.4), #0b0d17); 
+}*/
+/*
+main > section:first-of-type > div:first-child { 
+    position: relative; 
+    z-index: 1; 
+}
+*/
+main > section:first-of-type h1 { 
+    font-size: 4rem; 
+    font-weight: 700; 
+}
+
+main > section:first-of-type span { 
+    margin: 0 10px; 
+    letter-spacing: 3px; 
+    opacity: 0.8; 
+    font-weight: 500; 
+} 
+
+main > section:first-of-type button { 
+    margin-top: 2rem;
+    background: #a259ff; 
+    color: white; 
+    border: none; 
+    border-radius: 30px; 
+    padding: 0.8rem 2rem; 
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: 0.3s;
+} 
+
+main > section:first-of-type button:hover { 
+    background: #8b3fff; } 
+    
+/* LEARN FROM THE PROS */ 
+main > section:first-of-type > div:last-child { 
+        position: relative; 
+        z-index: 1; 
+        margin-top: 6rem; 
+    } 
+main > section:first-of-type h2 { 
+    font-weight: 400; 
+    color: #ccc; 
+}
+main > section:first-of-type h2 span { 
+    color: #a259ff; 
+} 
+main > section:first-of-type > div:last-child > div { 
+    display: flex; 
+    justify-content: center; 
+    gap: 3rem; 
+    flex-wrap: wrap; 
+    margin-top: 3rem; 
+} 
+main > section:first-of-type > div:last-child img { 
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
+    border: 3px solid #fff; 
+    object-fit: cover; 
+} 
+main > section:first-of-type > div:last-child h3 { 
+    margin-top: 1rem; 
+    font-size: 1.1rem; 
+} 
+main > section:first-of-type > div:last-child p { 
+    color: #ccc; 
+    font-size: 0.9rem;
+}
