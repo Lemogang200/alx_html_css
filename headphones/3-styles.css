@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'SOurce Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -153,4 +153,58 @@ section {
     font-size: 25px;
     font-weight: bold;
     bottom: 85px;
+}
+.form{
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+    margin-top: -50px;
+    position:vertical;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.submit-button{
+    padding: 12px 30px;
+    font-size: 1rem;
+    color: white;
+    background-color: #ff4c5b;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+    opacity: 0.9;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.input[type=submit]:hover {
+    background-color: #e04353;
+}
+.container h2 {
+    text-align: center;
+}
+.form label {
+    display: flex;
+    margin-top: 8px;
+    text-align: left;
+    color: black;
 }
